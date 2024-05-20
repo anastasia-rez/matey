@@ -1,0 +1,70 @@
+img {
+    width: 400px;
+    height: auto;
+}
+
+.btn-header-shine {
+    background: linear-gradient(45deg, transparent 45%, rgba(255, 255, 255, 0.5) 45%, rgba(255, 255, 255, 0.5) 55%, transparent 55%);
+    background-size: 200% 200%;
+    animation: shine 4s infinite;
+    color: #fff; 
+    border: none; 
+    background-color: rgb(255, 94, 0);
+    border-radius: 8px;
+    box-sizing: border-box;
+    width: 180px;
+    text-decoration: none;
+    transition: transform 0.3s ease; 
+}
+
+.btn-header-shine:hover {
+    transform: scale(1.1); 
+}
+
+.fa-hand-holding-dollar {
+    color: rgb(255, 94, 0);
+}
+
+@keyframes shine {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+.neon-button {
+    width: 60px;
+    height: 60px;
+    padding: 13px 15px;
+    background-color: rgba(0, 0, 0, 0.4); 
+    color: rgb(255, 94, 0);
+    border-radius: 10px;
+    margin: auto;
+}
+
+.neon-button i {
+    transition: transform 0.3s ease; 
+}
+
+.neon-button:hover i {
+    transform: scale(1.2); 
+}
+
+.neon-button:hover {
+    box-shadow: 0 0 20px 5px rgba(230, 167, 86, 0.5); 
+}
+
+@media (max-width: 767px) {
+    img {
+        width: 80%;
+        height: auto;
+    }
+
+    .btn-header-shine {
+        width: 80%;
+        padding: 10px 20px;
+    }
+
+    .neon-button {
+        padding: 15px;
+        height: auto;
+    }
+}
