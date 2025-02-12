@@ -12,7 +12,7 @@ img {
     background-color: rgb(255, 94, 0);
     border-radius: 8px;
     box-sizing: border-box;
-    width: 180px;
+    width: 200px;
     text-decoration: none;
     transition: transform 0.3s ease; 
 }
